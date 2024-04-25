@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+.AddToCardPage {
+    width: 100%;
+    min-height: 170px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 100px;
+}
+
+.AddToCardButton {
+    width: 266px;
+    height: 55px;
+    border-radius: 52px;
+    background: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 6.5%;
+    font-family: Lato;
+    cursor: pointer;
+    position: relative;
+    top: -20px;
+}
+
+.OrHaveP {
+    width: 563px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    font-family: Lato;
+    position: relative;
+    top: -10px;
+}
+
+
+.CakeDataStyle {
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.text1 {
+    font-size: 16px;
+    letter-spacing: 6.5%;
+    font-family: Lato;
+    text-transform: uppercase;
+}
+
+
+.text2 {
+    font-size: 12px;
+    letter-spacing: 6.5%;
+    text-align: center;
+    color: #000000;
+}
+
+.priceBox {
+    font-size: 14px;
+    font-family: Lato;
+    letter-spacing: 6.5%;
+    color: #000000;
+}
+
+
+
+.cupcakeBox:hover .verevBox {
+    opacity: 1;
+}
+
+
+.cupcakeBox:hover .plusBox {
+    display: block;
+}
+
+
+.pageChangingBox span {
+    font-size: 24px;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+
+.popup {
+    width: 595px;
+    height: 656px;
+    background: #EDA8C3;
+    border-radius: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.addYourCardSpan {
+    font-size: 32px;
+    font-family: Lato;
+    color: #201C1C;
+    position: relative;
+    right: 100px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+
+form .name {
+    width: 426px;
+    height: 64px;
+    border-radius: 52px;
+    background: #ECE0E5;
+    border: none;
+    box-shadow: 8px 8px 15px 2px #201C1C;
+}
+
+form input {
+    outline: none;
+    padding-left: 50px;
+    text-transform: capitalize;
+}
+
+::placeholder {
+    position: relative;
+    left: 140px;
+}
+
+.done {
+    width: 220px;
+    height: 64px;
+    border-radius: 52px;
+    background: #201C1C;
+    color: #ECE0E5;
+    border: none;
+    text-transform: capitalize;
+    font-family: Lato;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    font-family: 20px;
+}
+
+.IoClose {
+    position: relative;
+    top: -70px;
+    left: 230px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:700px) {
+    .popup {
+        width: 400px;
+        height: 550px;
+    }
+
+    .addYourCardSpan{
+        position: relative;
+        top: -30px;
+    }
+
+    .popup form {
+        position: relative;
+        top: 0px;
+    }
+
+    .popup form input {
+        width: 300px;
+        height: 40px;
+    }
+
+    ::placeholder {
+        position: relative;
+        left: 70px;
+    }
+
+    .addYourCardSpan {
+        position: relative;
+        left: 0px;
+    }
+
+    .IoClose {
+        position: relative;
+        left: 150px;
+    }
+
+    .OrHaveP {
+        width: 350px;
+        font-size: 14px;
+    }
+
+    .done {
+        width: 150px;
+        height: 40px;
+    }
+}
+
+
+
+@media screen and (max-width:420px) {
+    .popup {
+        width: 300px;
+        height: 400px;
+    }
+
+    .addYourCardSpan{
+        position: relative;
+        top: -30px;
+    }
+
+    .popup form {
+        position: relative;
+        top: 0px;
+    }
+
+    .popup form input {
+        width: 200px;
+        height: 40px;
+    }
+
+    ::placeholder {
+        position: relative;
+        left: 0px;
+    }
+
+    .addYourCardSpan {
+        position: relative;
+        left: 0px;
+    }
+
+    .IoClose {
+        position: relative;
+        left: 100px;
+        top: -20px;
+    }
+
+    .OrHaveP {
+        width: 350px;
+        font-size: 14px;
+        position: relative;
+        top: 10px;
+    }
+
+    .done {
+        width: 150px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+.AboutTorrontoCupcakePage {
+    width: 100%;
+    height: 720px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 130px;
+}
+
+.InTorontoAbout {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.spanBox {
+    width: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: 60px;
+}
+
+.spanBox span {
+    font-family: Lato;
+    text-transform: uppercase;
+}
+
+
+.AboutTorrontoCupcake {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutTorrontoCupcake span {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Lato;
+}
+
+.AboutMicheleBox {
+    width: 1449px;
+    height: 564px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightTextBox {
+    width: 678px;
+    height: 516px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.AboutMicheleSpan {
+    font-size: 48px;
+    font-family: Lato;
+}
+
+.textVerev {
+    width: 678px;
+    height: 120px;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+.textCenter {
+    width: 678px;
+    height: 120px;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+.textNerqev {
+    width: 678px;
+    height: 90px;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+
+
+
+@media screen and (max-width:1470px) {
+    .AboutMicheleBox {
+        width: 1200px;
+        height: 440px;
+    }
+
+    .girlImg {
+        width: 450px;
+    }
+
+    .rightTextBox {
+        height: 440px;
+    }
+}
+
+
+@media screen and (max-width:1220px) {
+    .AboutMicheleBox {
+        width: 800px;
+        height: 440px;
+    }
+
+    .girlImg {
+        width: 300px;
+    }
+
+    .AboutMicheleSpan {
+        font-size: 36px;
+    }
+
+    .rightTextBox {
+        width: 450px;
+        height: 300px;
+    }
+
+    .textVerev {
+        width: 440px;
+        height: 100px;
+        font-size: 16px;
+    }
+
+    .textCenter {
+        width: 440px;
+        height: 100px;
+        font-size: 16px;
+    }
+
+    .textNerqev {
+        width: 440px;
+        height: 100px;
+        font-size: 16px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:830px) {
+    .AboutTorrontoCupcake span {
+        font-size: 26px;
+    }
+
+    .AboutTorrontoCupcakePage {
+        height: 550px;
+    }
+
+    .AboutMicheleBox {
+        width: 550px;
+        height: 300px;
+    }
+
+    .girlImg {
+        width: 200px;
+    }
+
+    .AboutMicheleSpan {
+        font-size: 28px;
+    }
+
+    .rightTextBox {
+        width: 300px;
+        height: 300px;
+    }
+
+    .textVerev {
+        width: 300px;
+        height: 70px;
+        font-size: 12px;
+    }
+
+    .textCenter {
+        width: 300px;
+        height: 70px;
+        font-size: 12px;
+    }
+
+    .textNerqev {
+        width: 300px;
+        height: 70px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .AboutTorrontoCupcakePage {
+        height: 450px;
+    }
+
+    .AboutMicheleBox {
+        width: 400px;
+        height: 200px;
+    }
+
+    .girlImg {
+        width: 150px;
+    }
+
+    .AboutMicheleSpan {
+        font-size: 24px;
+    }
+
+    .rightTextBox {
+        width: 200px;
+        height: 200px;
+    }
+
+    .textVerev {
+        width: 200px;
+        height: 50px;
+        font-size: 8px;
+    }
+
+    .textCenter {
+        width: 200px;
+        height: 50px;
+        font-size: 8px;
+    }
+
+    .textNerqev {
+        width: 200px;
+        height: 50px;
+        font-size: 8px;
+    }
+}
+
+
+@media screen and (max-width:450px){
+    .textVerev{
+        width: 170px;   
+    }
+
+    .textCenter{
+        width: 170px;
+    }
+
+    .textNerqev{
+        width: 170px;
+    }
+
+    .rightTextBox{
+        width: 170px;
+        gap: 5px;
+    }
+
+    .AboutMicheleBox{
+        width: 330px;
+    }
+
+    .AboutMicheleSpan{
+        font-size: 17px;
+    }
+
+    .AboutTorrontoCupcake span{
+        font-size: 20px;
+    }
+}

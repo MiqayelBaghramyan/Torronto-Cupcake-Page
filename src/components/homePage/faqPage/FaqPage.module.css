@@ -1,0 +1,409 @@
+.FaqPage {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Faq {
+    font-size: 48px;
+    color: #201C1C;
+    text-transform: uppercase;
+}
+
+
+.reviews_page_nerqevBox {
+    width: 1200px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.questionsBox {
+    width: 1172px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    color: #B3005E;
+}
+
+.questionsBox.clicked {
+    border-bottom: 1px solid #B3005E;
+    color: #B3005E;
+}
+
+.nerqevBox_box1 {
+    width: 1180px;
+    height: 46px;
+    border-bottom: 1px solid #B3005E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    left: 15px;
+}
+
+.whatIstheBest {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Lato;
+    letter-spacing: 6.5%;
+    color: #B3005E;
+}
+
+.visibleQuestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+
+.LoremTextNerqev {
+    width: 975px;
+    height: 108px;
+    font-size: 18px;
+    letter-spacing: 4.4%;
+    line-height: 150%;
+    font-family: Lato;
+    color: #201C1C;
+    position: relative;
+    left: 40px;
+}
+
+.quest {
+    font-size: 22px;
+    letter-spacing: 6.5%;
+    color: #201C1C;
+    font-family: Lato;
+}
+
+
+.clicked .quest {
+    color: #B3005E;
+    border-bottom: #B3005E;
+}
+
+.spaned {
+    width: 1172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clicked {
+    border-bottom: #B3005E;
+}
+
+.arrowDown {
+    transition: transform 0.3s ease;
+    width: 30px;
+    height: 30px;
+    color: #201C1C;
+}
+
+.clicked .arrowDown {
+    color: #B3005E;
+}
+
+
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+
+
+
+@media screen and (max-width:1420px) {
+    .reviews_page_nerqevBox {
+        width: 1000px;
+    }
+
+    .nerqevBox_box1 {
+        width: 970px;
+    }
+
+    .questionsBox {
+        width: 970px;
+    }
+
+    .nerqevBox_box2 {
+        width: 970px;
+    }
+
+    .spaned {
+        width: 950px;
+    }
+}
+
+
+
+@media screen and (max-width:1130px) {
+    .reviews_page_nerqevBox {
+        width: 930px;
+    }
+
+    .nerqevBox_box1 {
+        width: 850px;
+    }
+
+    .questionsBox {
+        width: 850px;
+    }
+
+    .nerqevBox_box2 {
+        width: 850px;
+    }
+
+    .LoremTextNerqev {
+        width: 850px;
+        position: relative;
+        left: 20px;
+        font-size: 17px;
+    }
+
+    .spaned {
+        width: 850px;
+    }
+}
+
+
+@media screen and (max-width:960px) {
+    .reviews_page_nerqevBox {
+        width: 800px;
+    }
+
+    .nerqevBox_box1 {
+        width: 750px;
+    }
+
+    .nerqevBox_box1 {
+        height: 250px;
+    }
+
+    .nerqevBox_box2 {
+        width: 750px;
+    }
+
+    .LoremTextNerqev {
+        width: 750px;
+        position: relative;
+        left: 20px;
+        font-size: 15px;
+    }
+
+    .quest {
+        font-size: 16px;
+    }
+
+    .spaned {
+        height: 50px;
+    }
+}
+
+
+
+@media screen and (max-width:895px) {
+    .reviews_page_nerqevBox {
+        width: 700px;
+        height: 470px;
+    }
+
+    .nerqevBox_box1 {
+        width: 600px;
+    }
+
+    .questionsBox {
+        width: 600px;
+    }
+
+    .nerqevBox_box2 {
+        width: 600px;
+    }
+
+    .LoremTextNerqev {
+        width: 600px;
+        position: relative;
+        left: 20px;
+        font-size: 12px;
+    }
+
+    .spaned {
+        width: 600px;
+    }
+
+
+    .questionsBox {
+        height: 200px;
+    }
+}
+
+
+
+
+@media screen and (max-width:735px) {
+    .reviews_page_box_verev {
+        width: 600px;
+        height: 1100px;
+    }
+
+    .boxUsers {
+        position: relative;
+        width: 600px;
+        bottom: 400px;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+
+    .reviews_page_nerqevBox {
+        width: 530px;
+        height: 470px;
+    }
+
+    .nerqevBox_box1 {
+        width: 500px;
+    }
+
+    .questionsBox {
+        width: 500px;
+    }
+
+    .nerqevBox_box2 {
+        width: 500px;
+    }
+
+    .LoremTextNerqev {
+        width: 500px;
+        position: relative;
+        left: 20px;
+        font-size: 10px;
+    }
+
+    .spaned {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:635px) {
+    .reviews_page_nerqevBox {
+        width: 530px;
+    }
+
+    .user1Img {
+        width: 190px;
+    }
+
+    .user2Img {
+        width: 190px;
+    }
+
+    .user3Img {
+        width: 190px;
+    }
+
+    .user4Img {
+        width: 190px;
+    }
+
+    .quest {
+        font-size: 14px;
+    }
+
+    .spaned {
+        height: 30px;
+    }
+}
+
+
+@media screen and (max-width:560px) {
+    .reviews_page_nerqevBox {
+        width: 450px;
+    }
+
+    .nerqevBox_box1 {
+        width: 450px;
+        position: relative;
+        left: 0px;
+    }
+
+    .LoremTextNerqev {
+        width: 420px;
+        position: relative;
+        left: 5px;
+        font-size: 8.5px;
+    }
+
+    .questionsBox {
+        width: 430px;
+        position: relative;
+        left: -10px;
+    }
+
+    .nerqevBox_box2 {
+        width: 430px;
+    }
+
+    .quest {
+        font-size: 14px;
+    }
+
+
+    .spaned {
+        width: 420px;
+    }
+}
+
+
+@media screen and (max-width:495px) {
+    .questionsBox {
+        width: 350px;
+        /* height: 70px; */
+    }
+
+    .reviews_page_nerqevBox {
+        width: 350px;
+    }
+
+    .spaned {
+        width: 350px;
+        height: 50px;
+    }
+
+    .LoremTextNerqev {
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width:390px) {
+    .questionsBox {
+        width: 300px;
+    }
+
+    .reviews_page_nerqevBox {
+        width: 300px;
+        position: relative;
+        left: 5px;
+    }
+
+    .spaned {
+        width: 300px;
+    }
+
+    .LoremTextNerqev {
+        width: 300px;
+        position: relative;
+        left: 0px;
+    }
+}

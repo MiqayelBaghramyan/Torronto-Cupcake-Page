@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AboutOrderPage {
+    width: 100%;
+    height: 856px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("../../../assets/images/AboutPageImages/AboutOrderAndDelivery/Rectangle\ 106.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.AboutSpan{
+    font-size: 48px;
+    color: #201C1C;
+    font-family: Lato;
+}
+
+.img{
+    width: 100%;
+    height: 859px;
+}
+
+
+@media screen and (max-width:1250px) {
+    .AboutOrderPage{
+        height: 600px;
+    }
+}
+
+
+
+@media screen and (max-width:950px) {
+    .AboutOrderPage{
+        height: 450px;
+    }
+}
+
+
+@media screen and (max-width:670px) {
+    .AboutOrderPage{
+        height: 350px;
+    }
+}
+
+
+@media screen and (max-width:540px) {
+    .AboutOrderPage{
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .AboutOrderPage{
+        height: 200px;
+    }
+}

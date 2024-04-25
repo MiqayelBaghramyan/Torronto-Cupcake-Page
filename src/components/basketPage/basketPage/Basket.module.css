@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url('../fonts/Lato-Regular.ttf');
+}
+
+
+.BasketPage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 140px;
+    padding-bottom: 50px;
+}
+
+.homeBasketBox {
+    width: 176px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrowRight {
+    font-size: 22px;
+}
+
+.homeBasketBox span {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+.ItemsBoxAll {
+    width: 85%;
+    min-height: 300px;
+    border: 1px solid;
+    border-radius: 52px;
+    box-shadow: inset 1px 0px 10px 5px #201C1C;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.yourItemsSpan {
+    font-size: 40px;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+.selectAllBox {
+    width: 131px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    right: 500px;
+    margin: 30px;
+}
+
+.selectAllBox span {
+    text-transform: capitalize;
+}
+
+.selectAllBox .circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.slaq {
+    font-size: 26px;
+}
+
+.productsBox {
+    width: 1220px;
+    height: 193px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #201C1C;
+}
+
+
+.center {
+    width: 530px;
+    height: 137px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.pleaseNote {
+    width: 530px;
+    height: 34px;
+    font-size: 14px;
+    letter-spacing: 6.5%;
+}
+
+
+.CakeName {
+    font-size: 24px;
+    color: #201C1C;
+    font-family: Lato;
+}
+
+.size {
+    font-size: 14px;
+    letter-spacing: 6.5%;
+    font-family: Lato;
+    color: #000000;
+}
+
+.CakePrice {
+    font-size: 20px;
+    font-family: Lato;
+    letter-spacing: 6.5%;
+    color: #000000;
+}
+
+
+.right {
+    width: 165px;
+    height: 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.plusMinusBox {
+    width: 165px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.circleMinus {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #D8D8D8;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circleMinus span {
+    font-size: 24px;
+    letter-spacing: 6.5%;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+.circlePlus {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B3005E;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.circlePlus span {
+    color: #ECE0E5;
+    font-size: 24px;
+    letter-spacing: 6.5%;
+    font-family: Lato;
+}
+
+.deleteSpan {
+    width: 58px;
+    height: 20px;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+.deleteSpan:hover {
+    text-decoration: underline;
+}
+
+
+.dataBox {
+    width: 1220px;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.leftBoxData {
+    width: 355px;
+    height: 335px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.leftBoxData form input {
+    width: 355px;
+    height: 47px;
+    border-radius: 52px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    padding-left: 30px;
+}
+
+::placeholder {
+    position: relative;
+    left: 30px;
+}
+
+
+.rightBoxData {
+    width: 300px;
+    height: 313px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.rightBoxData button {
+    width: 162px;
+    height: 54px;
+    border-radius: 52px;
+    background: #201C1C;
+    color: #D9D9D9;
+}
+
+
+.paynowBox {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.paynowBox .chekbox {
+    width: 30px;
+}
+
+
+
+
+.selectedProduct {
+    background-color: #B3005E;
+}
+
+
+img{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1470px) {
+    .ItemsBoxAll {
+        width: 800px;
+    }
+
+    .dataBox {
+        width: 700px;
+    }
+
+    .leftBoxData form input {
+        width: 250px;
+    }
+
+    .selectAllBox {
+        position: relative;
+        left: 0px;
+    }
+
+    .productsBox {
+        width: 700px;
+    }
+
+    .center {
+        width: 300px;
+    }
+
+    .pleaseNote {
+        width: 250px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:830px) {
+    .ItemsBoxAll {
+        width: 600px;
+    }
+
+    .dataBox {
+        width: 500px;
+    }
+
+    .leftBoxData form input {
+        width: 250px;
+    }
+
+    .selectAllBox {
+        position: relative;
+        left: 0px;
+    }
+
+    .productsBox {
+        width: 500px;
+        gap: 10px;
+    }
+
+    .plusMinusBox {
+        width: 130px;
+    }
+
+    .cakeImg {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+
+
+@media screen and (max-width:630px) {
+    .ItemsBoxAll {
+        width: 400px;
+    }
+
+    .dataBox {
+        width: 300px;
+    }
+
+    .leftBoxData form input {
+        width: 250px;
+    }
+
+    form .chekbox {
+        width: 50px;
+    }
+
+    .selectAllBox {
+        position: relative;
+        left: 0px;
+    }
+
+    .productsBox {
+        width: 350px;
+    }
+
+    .plusMinusBox {
+        width: 100px;
+    }
+
+    .plusMinusBox button {
+        width: 30px;
+        height: 30px;
+    }
+
+    .cakeImg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .center {
+        width: 200px;
+    }
+
+    .pleaseNote {
+        width: 150px;
+        font-size: 8px;
+    }
+
+    .leftBoxData form input {
+        width: 150px;
+        height: 30px;
+    }
+
+    .selectAllBox {
+        position: relative;
+        left: 0px;
+    }
+
+    .rightBoxData {
+        width: 150px;
+    }
+
+    .rightBoxData button {
+        width: 100px;
+        height: 30px;
+    }
+
+    .CakeName {
+        font-size: 16px;
+    }
+
+    .deliverySpan {
+        font-size: 10px;
+    }
+
+    .needaHand {
+        font-size: 12px;
+    }
+
+    .ItemsBoxAll {
+        width: 90%;
+    }
+
+    .CakePrice {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .center {
+        width: 120px;
+    }
+
+    .pleaseNote {
+        width: 120px;
+        font-size: 6px;
+    }
+
+    .right {
+        width: 85px;
+    }
+
+    .rightBoxData {
+        height: 170px;
+        position: relative;
+        top: 10px;
+        gap: 40px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .rightBoxData span {
+        font-size: 12px;
+    }
+
+    .leftBoxData form input::placeholder {
+        position: relative;
+        left: 0px;
+    }
+
+    form span {
+        font-size: 12px;
+    }
+
+    .yourItemsSpan {
+        font-size: 22px;
+    }
+
+    .selectAllBox .circle {
+        width: 30px;
+        height: 30px;
+    }
+}

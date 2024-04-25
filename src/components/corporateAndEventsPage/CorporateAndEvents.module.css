@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("./fonts/Lato-Regular.ttf");
+}
+
+.CorporateAndEventsPage {
+    width: 100%;
+    min-height: 1500px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.corporateAndEventsBox {
+    width: 1400px;
+    height: 33px;
+    border-bottom: 1px solid #201C1C;
+}
+
+.corporateEventsDownBox {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.corporateEventsSpan {
+    font-size: 48px;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+.textBox1 {
+    width: 757px;
+    height: 556px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FromProductBrand {
+    width: 757px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+.ourGraphicsDepartment {
+    width: 757px;
+    height: 120px;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+
+.ourGraphicsCrystal {
+    width: 757px;
+    height: 120px;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    font-size: 20px;
+    font-family: Lato;
+}
+
+
+.weWillDeliver {
+    width: 627px;
+    height: 30px;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    font-size: 20px;
+    font-family: Lato;
+}

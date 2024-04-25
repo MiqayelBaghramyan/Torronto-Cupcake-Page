@@ -1,0 +1,233 @@
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+
+.SpecialOffer {
+    width: 100%;
+    height: 718px;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.SpecialOffer_page_left_box {
+    width: 841px;
+    height: 430px;
+    gap: 10px;
+}
+
+.SpecialOfferSpan {
+    font-size: 48px;
+    font-family: Lato;
+    text-transform: uppercase;
+    color: #201C1C;
+}
+
+.SpeciaOfferPtag {
+    font-size: 32px;
+    letter-spacing: 6.5%;
+    color: #201C1C;
+}
+
+.loremIpsumPtag {
+    font-size: 20px;
+    letter-spacing: 6.5%;
+    color: #201C1C;
+}
+
+.orderNow {
+    width: 297px;
+    height: 67px;
+    border-radius: 52px;
+    background: #000000;
+    color: #ECE0E5;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 6.5%;
+    position: relative;
+    top: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1920px) {
+    .joinUs {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1570px) {
+    .SpecialOffer_page_left_box {
+        width: 750px;
+    }
+}
+
+@media screen and (max-width:1480px) {
+    .Img1 {
+        width: 580px;
+    }
+}
+
+
+@media screen and (max-width:1380px) {
+    .SpecialOffer_page_left_box {
+        width: 600px;
+    }
+
+    .SpecialOfferSpan {
+        font-size: 40px;
+    }
+
+    .SpeciaOfferPtag {
+        font-size: 26px;
+    }
+
+    .loremIpsumPtag {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    .SpecialOffer_page_left_box {
+        width: 450px;
+    }
+
+    .SpecialOfferSpan {
+        font-size: 30px;
+    }
+
+    .SpeciaOfferPtag {
+        font-size: 22px;
+    }
+
+    .loremIpsumPtag {
+        font-size: 16px;
+    }
+
+    .Img1 {
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width:950px) {
+    .SpecialOffer_page_left_box {
+        width: 350px;
+        height: 380px;
+    }
+
+    .SpecialOfferSpan {
+        font-size: 28px;
+    }
+
+    .SpeciaOfferPtag {
+        font-size: 18px;
+    }
+
+    .loremIpsumPtag {
+        font-size: 16px;
+    }
+
+    .orderNow {
+        width: 200px;
+        height: 45px;
+    }
+
+    .Img1 {
+        width: 350px;
+    }
+}
+
+
+@media screen and (max-width:750px) {
+    .joinUs {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100px;
+        height: 37px;
+        border-radius: 52px;
+        background: #201C1C;
+        color: #ECE0E5;
+        position: relative;
+        top: 90px;
+    }
+
+    .SpecialOffer {
+        flex-direction: column;
+    }
+
+    .cakeBox {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .SpecialOffer_page_left_box {
+        width: 500px;
+        height: 380px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SpeciaOfferPtag {
+        text-align: center;
+    }
+
+    .loremIpsumPtag {
+        text-align: center;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:530px) {
+    .cakeBox {
+        width: 350px;
+    }
+
+    .SpecialOffer_page_left_box {
+        width: 350px;
+    }
+
+    .SpeciaOfferPtag {
+        font-size: 16px;
+    }
+
+    .Img1{
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width:470px) {
+    .SpecialOffer{
+        height: 500px;
+    }
+    .loremIpsumPtag{
+        width: 350px;
+        font-size: 10px;
+    }
+
+    .SpeciaOfferPtag{
+        width: 350px;
+        font-size: 16px;
+    }
+
+    .Img1{
+        width: 200px;
+    }
+
+    .cakeBox{
+        position: relative;
+        top: -50px;
+        width: 330px;
+    }
+}

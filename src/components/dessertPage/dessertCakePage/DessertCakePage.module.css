@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.DessertCakePage {
+    width: 100%;
+    min-height: 700px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+
+.DessertCakeData{
+    width: 90%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    gap: 50px;
+}

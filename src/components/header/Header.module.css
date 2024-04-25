@@ -1,0 +1,364 @@
+.header {
+    width: 100%;
+    height: 133px;
+    background-color: #F5CDDE;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #201C1C;
+    position: fixed;
+    z-index: 9999;
+}
+
+.navMenu {
+    width: 550px;
+    /* width: 600px; */
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.5s ease;
+}
+
+.firstUl {
+    width: 528px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstUl .firstLi {
+    list-style: none;
+}
+
+.firstLi a {
+    text-decoration: none;
+    color: #201C1C;
+    text-transform: uppercase;
+}
+
+
+
+.navMenu2 {
+    width: 528px;
+    height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondUl {
+    width: 528px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secondUl .secondLi {
+    list-style: none;
+}
+
+.secondLi a {
+    text-decoration: none;
+    color: #201C1C;
+    text-transform: uppercase;
+}
+
+
+.icon_box {
+    width: 100px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.userIcon {
+    width: 24px;
+    height: 24px;
+    color: #000000;
+}
+
+.searchIcon {
+    width: 24px;
+    height: 24px;
+    color: #000000;
+}
+
+.basketIcon {
+    width: 24px;
+    height: 24px;
+    color: #000000;
+}
+
+select {
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+select option {
+    color: #201C1C;
+}
+
+header .mobileMenu {
+    display: none;
+}
+
+header .select2 {
+    display: none;
+}
+
+header .firstLiHome {
+    display: none;
+}
+
+header .firstLiCommunity {
+    display: none;
+}
+
+.mobileIcon {
+    width: 25px;
+    height: 25px;
+    transition: 0.5s ease;
+}
+
+.baksetPage {
+    display: none;
+}
+
+.baksetCount {
+    position: relative;
+    top: -50px;
+}
+
+.basketQuantityText{
+    position: relative;
+    left: 10px;
+}
+
+
+
+
+@media screen and (max-width:1920px) {
+    .mobileIcon {
+        display: none;
+    }
+
+    .navMenu_mobile {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1350px) {
+    .navMenu {
+        width: 450px;
+        transition: 0.5s ease;
+    }
+
+    .navMenu2 {
+        width: 450px;
+        transition: 0.5s ease;
+    }
+}
+
+
+@media screen and (max-width:1175px) {
+    .navMenu {
+        width: 300px;
+        transition: 0.5s ease;
+    }
+
+    .navMenu .firstLi {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navMenu2 {
+        width: 300px;
+        transition: 0.5s ease;
+    }
+
+    select {
+        font-size: 10px;
+    }
+
+    .navMenu .firstLi a {
+        font-size: 10px;
+    }
+
+    .navMenu2 .secondLi a {
+        font-size: 10px;
+    }
+
+    .LogoHeader {
+        width: 70px;
+        height: 70px;
+    }
+
+    .searchIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .userIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .basketIcon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icon_box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width:980px) {
+    .icon_box {
+        width: 75px;
+    }
+
+    .navMenu {
+        width: 250px;
+        transition: 0.5s ease;
+    }
+
+    .navMenu2 {
+        width: 250px;
+        transition: 0.5s ease;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    .mobileIcon {
+        display: flex;
+        cursor: pointer;
+
+    }
+
+    .navMenu {
+        width: 250px;
+        transition: 0.5s ease;
+    }
+
+
+    .navMenu2 {
+        width: 250px;
+        transition: 0.5s ease;
+    }
+
+    .LogoHeader {
+        width: 70px;
+    }
+
+    .firstLi a {
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .secondLi a {
+        font-size: 14px;
+        text-align: start;
+    }
+
+    .firstUl {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .secondUl {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media screen and (max-width: 900px) {
+
+    .navMenu,
+    .navMenu2 {
+        display: none;
+    }
+
+    .baksetPage {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .mobileMenu {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: absolute;
+        top: 133px;
+        left: 0px;
+        background-color: #F5CDDE;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .mobileMenu ul {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .mobileMenu li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    .mobileMenu a {
+        text-decoration: none;
+        color: #201C1C;
+        text-transform: uppercase;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    .mobileMenu ul {
+        width: 250px;
+    }
+
+    .firstLi {
+        font-size: 8px;
+    }
+
+    header .mobileMenu {
+        display: flex;
+    }
+
+    header .select2 {
+        display: flex;
+    }
+
+    header .firstLiHome {
+        display: flex;
+    }
+
+    header .firstLiCommunity {
+        display: flex;
+    }
+}

@@ -1,0 +1,472 @@
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+
+.OurCupcakesPage {
+    width: 100%;
+    height: 800px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.OurCupcake_page_verev {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.AboutUs {
+    font-size: 48px;
+    color: #201C1C;
+    font-family: Lato;
+    text-transform: uppercase;
+}
+
+.Img1 {
+    position: relative;
+    top: 35px;
+}
+
+.verevAj {
+    width: 678px;
+    height: 500px;
+    position: relative;
+    top: -40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ourCupcakes {
+    font-size: 20px;
+    letter-spacing: 4.4%;
+    line-height: 150%;
+}
+
+.seeMore {
+    width: 298px;
+    height: 68px;
+    border-radius: 52px;
+    background: #000000;
+    border: none;
+    color: #ECE0E5;
+    text-transform: uppercase;
+    letter-spacing: 6.5%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.FavouriteAssoriment {
+    font-size: 48px;
+    font-family: Lato;
+    color: #000000;
+    position: relative;
+    top: 50px;
+    text-transform: uppercase;
+}
+
+.about_page_nerqev {
+    width: 1521px;
+    height: 513px;
+    position: relative;
+    top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxAboutPageNerqev {
+    width: 273px;
+    height: 513px;
+    border-radius: 20px;
+    border: 1px solid #B3005E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.ATasteOfHeaven {
+    font-size: 16px;
+    letter-spacing: 6.5%;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Lato;
+}
+
+.starBox {
+    width: 130px;
+    height: 24px;
+}
+
+.TheSameBeautifule {
+    font-size: 12px;
+    letter-spacing: 6.5%;
+    color: #000000;
+    font-family: Lato;
+    text-align: center;
+}
+
+.FromMoney {
+    font-size: 14px;
+    letter-spacing: 6.5%;
+    color: #000000;
+    font-family: Lato;
+}
+
+
+.BuyNowBtn {
+    width: 157px;
+    height: 54px;
+    border-radius: 52px;
+    background: none;
+    border: 1px solid #000000;
+    color: #201C1C;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1920px) {
+    .SeeMoreA {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:1550px) {
+    .about_page_nerqev {
+        width: 1300px;
+    }
+
+    .Img4 {
+        height: 240px;
+    }
+}
+
+@media screen and (max-width:1390px) {
+    .verevAj {
+        width: 520px;
+        position: relative;
+        top: 50px;
+    }
+
+    .ourCupcakes {
+        font-size: 16px;
+    }
+
+    .Img1 {
+        width: 570px;
+    }
+
+    .about_page_nerqev {
+        width: 1200px;
+    }
+}
+
+@media screen and (max-width:1240px) {
+    .about_page_nerqev {
+        width: 1000px;
+    }
+
+    .FavouriteAssoriment {
+        font-size: 40px;
+    }
+
+    .boxAboutPageNerqev {
+        width: 200px;
+        height: 470px;
+        gap: 15px;
+    }
+
+    .Img2 {
+        width: 160px;
+        height: 200px;
+    }
+
+    .Img4 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Img5 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .Img6 {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .Img1 {
+        width: 470px;
+    }
+
+    .verevAj {
+        width: 420px;
+        height: 350px;
+        position: relative;
+        top: 50px;
+    }
+
+    .ourCupcakes {
+        font-size: 12px;
+    }
+
+    .OurCupcakesPage {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .Img1 {
+        width: 370px;
+    }
+
+    .Img2 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Img4 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Img5 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .Img6 {
+        width: 120px;
+        height: 120px;
+    }
+
+    .verevAj {
+        width: 320px;
+        height: 270px;
+        position: relative;
+        top: 50px;
+    }
+
+    .AboutUs {
+        font-size: 32px;
+    }
+
+    .seeMore {
+        width: 150px;
+        height: 50px;
+        font-size: 14px;
+        position: relative;
+        left: 165px;
+        top: 20px;
+    }
+
+    .ourCupcakes {
+        font-size: 10px;
+    }
+
+    .about_page_nerqev {
+        width: 800px;
+    }
+
+    .boxAboutPageNerqev {
+        width: 170px;
+        height: 350px;
+        gap: 5px;
+    }
+
+    .BuyNowBtn {
+        width: 120px;
+        height: 30px;
+        position: relative;
+        top: 20px;
+    }
+
+    .TheSameBeautifule {
+        font-size: 10px;
+    }
+
+    .OurCupcakesPage {
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width:840px) {
+    .OurCupcakesPage {
+        height: 450px;
+    }
+
+    .about_page_nerqev {
+        width: 600px;
+        height: 300px;
+    }
+
+    .boxAboutPageNerqev {
+        width: 121.87px;
+        height: 229px;
+        gap: 0px;
+    }
+
+    .ATasteOfHeaven {
+        font-size: 12px;
+    }
+
+    .stars {
+        width: 58.05px;
+        position: relative;
+        left: 35px;
+    }
+
+    .FromMoney {
+        font-size: 6.5px;
+    }
+
+    .TheSameBeautifule {
+        font-size: 8px;
+    }
+
+    .BuyNowBtn {
+        width: 70px;
+        height: 24px;
+        border-radius: 24px;
+        position: relative;
+        top: 0;
+    }
+
+
+    .Img2 {
+        width: 101px;
+        height: 88.73px;
+    }
+
+    .Img4 {
+        width: 101px;
+        height: 88.73px;
+    }
+
+    .Img5 {
+        width: 101px;
+        height: 88.73px;
+    }
+
+    .Img6 {
+        width: 101px;
+        height: 88.73px;
+    }
+}
+
+
+@media screen and (max-width:730px) {
+    .OurCupcakesPage {
+        height: 350px;
+    }
+
+    .Img1 {
+        width: 280px;
+    }
+
+    .verevAj {
+        width: 250px;
+    }
+
+    .seeMore {
+        display: none;
+    }
+
+    .SeeMoreA {
+        width: 70px;
+        display: flex;
+        position: relative;
+        left: 170px;
+        color: #201C1C;
+    }
+
+    .Celebrating {
+        display: none;
+    }
+
+    .ourCupcakes {
+        letter-spacing: -1%;
+    }
+
+    .FavouriteAssoriment {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .OurCupcakesPage {
+        height: 250px;
+    }
+
+    .about_page_nerqev {
+        width: 500px;
+    }
+
+    .OurCupcake_page_verev {
+        position: relative;
+        top: -40px;
+    }
+
+    .Img1 {
+        width: 220px;
+    }
+
+    .AboutUs {
+        font-size: 26px;
+    }
+
+    .verevAj {
+        width: 180px;
+        height: 200px;
+    }
+
+    .SeeMoreA {
+        position: relative;
+        left: 100px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .about_page_nerqev {
+        width: 450px;
+    }
+
+    .boxAboutPageNerqev {
+        width: 100px;
+        height: 229px;
+        gap: 0px;
+    }
+
+    .ATasteOfHeaven {
+        font-size: 10px;
+    }
+
+    .TheSameBeautifule {
+        font-size: 7px;
+    }
+}
+
+
+@media screen and (max-width:425px) {
+    .Img1{
+        width: 160px;
+    }
+
+    .OurCupcake_page_verev{
+        width: 380px;
+    }
+}

@@ -1,0 +1,25 @@
+.BoxesDataPage {
+    width: 100%;
+    min-height: 1500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BoxesCakeData{
+    width: 88%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    gap: 50px;
+}
+
+
+@media screen and (max-width:550px) {
+    .BoxesCakeData{
+        width: 50%;
+    }
+}

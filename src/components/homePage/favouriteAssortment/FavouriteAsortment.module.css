@@ -1,0 +1,134 @@
+.FavouritePage {
+    width: 100%;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ECE0E5;
+}
+
+.FavouriteAssoriment {
+    font-size: 48px;
+    font-family: Lato;
+    color: #000000;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 40px;
+}
+
+.Favourite_page_nerqev{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+
+@media screen and (max-width:1550px) {
+    .Img4 {
+        height: 240px;
+    }
+}
+
+
+
+
+@media screen and (max-width:1240px) {
+    .FavouriteAssoriment {
+        font-size: 40px;
+    }
+
+    .boxFavouritePageNerqev {
+        width: 200px;
+        height: 470px;
+        gap: 7px;
+    }
+
+    #cakes{
+        width: 200px;
+        height: 200px;
+    }
+
+    .Favourite_page_nerqev{
+        width: 92%;
+    }
+}
+
+
+@media screen and (max-width:1040px) {
+    #cakes{
+        width: 120px;
+        height: 120px;
+    }
+    .Favourite_page_nerqev{
+        width: 88%;
+        flex-wrap: wrap;
+    }
+
+    .BuyNowBtn {
+        width: 120px;
+        height: 30px;
+        position: relative;
+        top: 20px;
+    }
+
+    .TheSameBeautifule {
+        font-size: 10px;
+    }
+    
+}
+
+@media screen and (max-width:945px) {
+    .ATasteOfHeaven {
+        font-size: 12px;
+    }
+
+    .stars {
+        width: 58.05px;
+        position: relative;
+        left: 35px;
+    }
+
+    .Favourite_page_nerqev{
+        width: 80%;
+    }
+
+    .FromMoney {
+        font-size: 6.5px;
+    }
+
+    .TheSameBeautifule {
+        font-size: 8px;
+    }
+
+    .BuyNowBtn {
+        width: 70px;
+        height: 24px;
+        border-radius: 24px;
+        position: relative;
+        top: 0;
+    }
+}
+
+
+@media screen and (max-width:730px) {
+    .FavouriteAssoriment {
+        font-size: 30px;
+    }
+
+    .Favourite_page_nerqev{
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .FavouriteAssoriment{
+        position: relative;
+        bottom: 20px;
+        font-size: 22px;
+    }
+}
+

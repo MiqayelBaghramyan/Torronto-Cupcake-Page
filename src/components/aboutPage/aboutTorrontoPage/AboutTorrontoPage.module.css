@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AboutTorrontoPage {
+    width: 100%;
+    height: 900px;
+    background-color: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.all {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 40px;
+}
+
+
+.AboutSpan {
+    font-size: 48px;
+    font-family: Lato;
+}
+
+.leftBox {
+    width: 635px;
+    height: 389px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.AboutTorrontoSpan {
+    font-size: 48px;
+}
+
+.leftBox p {
+    width: 627px;
+    height: 150px;
+    font-size: 20px;
+    color: #201C1C;
+}
+
+
+@media screen and (max-width:1235px) {
+    .all{
+        width: 800px;
+    }
+    .cakeInProcessImg {
+        width: 350px;
+    }
+
+    .leftBox {
+        width: 460px;
+        height: 300px;
+    }
+
+    .leftBox p {
+        width: 420px;
+        font-size: 14px;
+        height: 80px;
+    }
+}
+
+
+@media screen and (max-width:950px) {
+    .all{
+        width: 550px;
+    }
+    .AboutTorrontoPage {
+        height: 500px;
+    }
+
+    .AboutTorrontoSpan{
+        font-size: 28px;
+    }
+
+    .cakeInProcessImg {
+        width: 200px;
+    }
+
+    .leftBox {
+        width: 300px;
+        height: 300px;
+    }
+
+    .leftBox p {
+        width: 300px;
+        height: 85px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:675px) {
+    .AboutTorrontoPage {
+        height: 500px;
+    }
+
+    .cakeInProcessImg {
+        width: 200px;
+    }
+
+    .AboutTorrontoSpan {
+        font-size: 28px;
+    }
+
+    .leftBox {
+        width: 200px;
+        height: 250px;
+    }
+
+    .leftBox p {
+        width: 200px;
+        height: 85px;
+        font-size: 10px;
+    }
+
+    .AboutSpan {
+        font-size: 30px;
+    }
+
+    .all{
+        width: 450px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .AboutTorrontoPage{
+        height: 350px;
+    }
+    .cakeInProcessImg{
+        width: 150px;
+    }
+
+    .all{
+        width: 330px;
+        height: 170px;
+    }
+
+    .leftBox p{
+        width: 170px;
+        font-size: 8px;
+    }
+
+    .leftBox{
+        height: 200px;
+        gap: 5px;
+    }
+
+    .AboutTorrontoSpan{
+        font-size: 18px;
+    }
+}

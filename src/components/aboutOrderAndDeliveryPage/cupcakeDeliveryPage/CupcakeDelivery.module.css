@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+.CupcakeDeliveryPage {
+    width: 100%;
+    min-height: 1250px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background: #ECE0E5;
+}
+
+.CupcakeDeliveryUpBox {
+    width: 1449px;
+    height: 556px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rightTextBox {
+    width: 678px;
+    height: 455px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.CupcakeDeliverySpanBox {
+    width: 366px;
+    height: 44px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.CupcakeDeliverySpanBox span {
+    font-size: 42px;
+}
+
+
+.CupcakeDeliveryP {
+    width: 678px;
+    height: 90px;
+}
+
+.mostDeliveriesP {
+    width: 678px;
+    height: 120px;
+}
+
+.orderThreeP {
+    width: 678px;
+    height: 60px;
+}
+
+
+.CupcakeDeliveryDownBox {
+    width: 1449px;
+    height: 556px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.weDeliver {
+    width: 678px;
+    height: 90px;
+}
+
+.ToContactBox {
+    height: 32px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.rightTextBox2 {
+    width: 678px;
+    height: 475px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.clickSpan {
+    width: 425px;
+    height: 36px;
+    font-size: 24px;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+.pForDelivery {
+    font-weight: bold;
+}
+
+.pForDelivery span {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.CupcakeDeliverySpanBox .WithAn {
+    font-size: 16px;
+}
+
+.weDeliver .weDeliverToSpan{
+    font-weight: bold;
+    font-size: 16px;
+}

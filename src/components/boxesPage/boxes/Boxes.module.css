@@ -1,0 +1,260 @@
+@import "./Boxes.module.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+
+.BoxesPage {
+    width: 100%;
+    height: 1100px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    top: 130px;
+}
+
+
+.alwaysAvailableBox {
+    width: 1420px;
+    height: 33px;
+    border-bottom: 1px solid #201C1C;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+}
+
+.alvaysAvailableBoxDown {
+    width: 1450px;
+    height: 155px;
+    border-radius: 52px;
+    background: #F4C9DA;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.alvaysAvailableBoxDown button {
+    width: 241px;
+    height: 51px;
+    border-radius: 37px;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -1.1%;
+    transition: 0.5s ease;
+}
+
+.alvaysAvailableBoxDown button:hover {
+    background: #FFE3EF;
+    transition: 0.5s ease;
+    box-shadow: 1px 2px 5px 1px #201C1C;
+}
+
+.NoAdded {
+    width: 955px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.rotated {
+    transform: 0.5s ease;
+    transform: rotate(180deg);
+}
+
+
+.downBox {
+    width: 1480px;
+    height: 556px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    top: 200px;
+}
+
+.SlArrowDown {
+    width: 23px;
+    height: 23px;
+    transition: 0.5s ease;
+}
+
+.homeDessertBox {
+    width: 214px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+
+.homeDessertBox span {
+    font-family: Lato;
+    font-size: 22px;
+    color: #201C1C;
+    text-transform: uppercase;
+}
+
+.homeDessertBox a {
+    text-decoration: none;
+}
+
+.arrowRight {
+    font-size: 22px;
+}
+
+
+@media screen and (max-width:1500px) {
+    .BoxesPage {
+        height: 980px;
+    }
+
+    .BoxesPage .alwaysAvailableBox {
+        width: 800px;
+    }
+
+    .alvaysAvailableBoxDown {
+        width: 800px;
+    }
+
+    .downBox {
+        width: 900px;
+        height: 400px;
+    }
+
+    .downBox img {
+        width: 320px;
+        height: 320px;
+    }
+
+    .alvaysAvailableBoxDown button {
+        width: 200px;
+        height: 40px;
+    }
+}
+
+
+@media screen and (max-width:980px) {
+    .BoxesPage {
+        height: 850px;
+    }
+
+    .BoxesPage .alwaysAvailableBox {
+        width: 600px;
+    }
+
+    .alvaysAvailableBoxDown {
+        width: 600px;
+    }
+
+    .downBox {
+        width: 700px;
+        height: 350px;
+    }
+
+    .downBox img {
+        width: 280px;
+        height: 280px;
+        position: relative;
+        top: -60px;
+    }
+
+
+    .alvaysAvailableBoxDown button {
+        width: 140px;
+        height: 30px;
+        font-size: 14px;
+    }
+
+    .NoAdded {
+        width: 600px;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:740px) {
+    .BoxesPage {
+        height: 750px;
+    }
+
+    .BoxesPage .alwaysAvailableBox {
+        width: 400px;
+    }
+
+    .alvaysAvailableBoxDown {
+        width: 400px;
+    }
+
+    .downBox {
+        width: 450px;
+        height: 250px;
+    }
+
+    .downBox img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .alvaysAvailableBoxDown button {
+        width: 90px;
+        height: 25px;
+        font-size: 9px;
+    }
+
+    .NoAdded {
+        width: 400px;
+        font-size: 14px;
+    }
+}
+
+
+
+@media screen and (max-width:460px) {
+    .BoxesPage .alwaysAvailableBox {
+        width: 350px;
+    }
+
+    .alvaysAvailableBoxDown {
+        width: 350px;
+    }
+
+    .downBox{
+        width: 350px;
+    }
+
+    .downBox img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .NoAdded{
+        width: 350px;
+        font-size: 12px;
+    }
+}

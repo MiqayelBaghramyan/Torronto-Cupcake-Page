@@ -1,0 +1,222 @@
+.Favourite_page_nerqev {
+    width: 250px;
+    min-height: 303px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+.boxFavouritePageNerqev {
+    width: 273px;
+    height: 513px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+    transition: 0.5s ease;
+}
+
+.boxFavouritePageNerqev:hover {
+    width: 316px;
+    box-shadow: inset 0px 2px 20px 3px #3D3A45;
+    border-radius: 52px;
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.plusBox {
+    width: 89px;
+    height: 28px;
+    border-radius: 16px;
+    border: 1px solid #201C1C;
+    opacity: 0;
+    transition: 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.plusBox span {
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.plusBox button {
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.boxFavouritePageNerqev:hover .verevBox {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+.boxFavouritePageNerqev:hover .plusBox {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+    cursor: pointer;
+}
+
+.verevBox {
+    width: 316px;
+    height: 26px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 0.5s ease;
+}
+
+
+.imgCake {
+    width: 150px;
+    height: 150px;
+}
+
+
+.bag {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.hearth {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+}
+
+.buyNowBtn {
+    width: 157px;
+    height: 54px;
+    border-radius: 52px;
+    background: none;
+    color: #201C1C;
+    transition: 0.5s ease;
+    border: 1px solid #201C1C;
+}
+
+.boxFavouritePageNerqev:hover .buyNowBtn {
+    background: #201C1C;
+    color: #ECE0E5;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+
+.ATasteOfHeaven {
+    font-size: 16px;
+    letter-spacing: 6.5%;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: Lato;
+}
+
+.starBox {
+    width: 130px;
+    height: 24px;
+}
+
+.TheSameBeautifule {
+    width: 236px;
+    height: 62px;
+    font-size: 12px;
+    letter-spacing: 6.5%;
+    color: #000000;
+    font-family: Lato;
+    text-align: center;
+}
+
+.BuyNowBtn {
+    width: 157px;
+    height: 54px;
+    border-radius: 52px;
+    background: none;
+    border: 1px solid #000000;
+    color: #201C1C;
+}
+
+.buttonToProduct {
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 52px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.boxFavouritePageNerqev:hover .buttonToProduct {
+    background: #201C1C;
+    color: #ECE0E5;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 14px;
+    letter-spacing: 6.5%;
+    color: #000000;
+    font-family: Lato;
+}
+
+
+
+
+
+
+@media screen and (max-width:1550px) {
+    .Img4 {
+        height: 240px;
+    }
+}
+
+
+@media screen and (max-width:1380px) {
+    .FavouriteAssoriment {
+        font-size: 40px;
+    }
+
+    .FavouritePage {
+        height: 600px;
+    }
+
+    .boxFavouritePageNerqev {
+        width: 220px;
+        height: 470px;
+        height: 420px;
+        gap: 7px;
+    }
+
+    .imgCake {
+        width: 120px;
+        height: 120px;
+    }
+
+    .TheSameBeautifule {
+        width: 160px;
+    }
+
+    .boxFavouritePageNerqev:hover {
+        width: 250px;
+    }
+}

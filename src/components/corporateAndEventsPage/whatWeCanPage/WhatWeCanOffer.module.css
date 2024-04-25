@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url("../fonts/Lato-Regular.ttf");
+}
+
+.WhatWeCanOfferPage {
+    width: 100%;
+    height: 650px;
+    background: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.textBox {
+    width: 1029px;
+    height: 620px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.whatCanOfferSpan {
+    font-size: 48px;
+    font-family: Lato;
+    color: #B3005E;
+}
+
+.circle {
+    font-size: 8px;
+    color: #B3005E;
+}
+
+
+.deliveryToMultiple {
+    width: 950px;
+    height: 90px;
+    font-size: 20px;
+    font-family: Lato;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    color: #201C1C;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.ukWide{
+    width: 664px;
+    height: 30px;
+    font-size: 20px;
+    font-family: Lato;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    color: #201C1C;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tailoredToYou{
+    font-size: 48px;
+    font-family: Lato;
+    color: #B3005E;
+}
+
+.bespokeCupcakeSpan{
+    width: 1029px;
+    height: 60px;
+    font-size: 20px;
+    font-family: Lato;
+    line-height: 150%;
+    letter-spacing: 4.4%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
